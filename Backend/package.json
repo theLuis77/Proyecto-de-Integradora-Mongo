@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "App de alcolimetro desarollada en react native y mongodb ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon SRC/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theLuis77/Proyecto-de-Integradora-.git"
+  },
+  "author": "Luis FMV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theLuis77/Proyecto-de-Integradora-/issues"
+  },
+  "homepage": "https://github.com/theLuis77/Proyecto-de-Integradora-#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "expres": "^0.0.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
